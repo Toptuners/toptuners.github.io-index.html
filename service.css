@@ -1,0 +1,169 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body.is-preload {
+    -webkit-animation: 1s fadeIn ease-in-out;
+    animation: 1s fadeIn ease-in-out;
+}
+
+nav.main-nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav.main-nav a {
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav.main-nav a:hover {
+    color: #3498db;
+}
+
+.wrapper.style1 {
+    padding: 4em 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-4,
+.col-6-medium,
+.col-12-small {
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin-bottom: 20px;
+}
+
+.box.style2 {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.box.style2:hover {
+    transform: translateY(-10px);
+}
+
+.box.style2 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.box.style2 img:hover {
+    transform: scale(1.1);
+}
+
+.box.style2 h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.box.style2 p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.button.large.scrolly {
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button.large.scrolly:hover {
+    background-color: #2980b9;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,106 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the header */
+h2 {
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #3498db;
+    margin-bottom: 20px;
+}
+
+/* Style the navigation bar */
+nav.main-nav {
+    text-align: center;
+    background-color: #2ecc71;
+    padding: 10px;
+}
+
+nav.main-nav a {
+    color: lightskyblue;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Apply styles to the article section */
+article.wrapper {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+/* Style the profile image */
+span.image img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+/* Style the header in the article */
+header h1 {
+    color: #8e44ad;
+}
+
+/* Style the paragraph text in the article */
+p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Style the list in the article */
+ul.Expertise {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #3498db;
+}
+
+/* Style the "Home" button */
+a.button.large {
+    display: inline-block;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Style the link color */
+a {
+    color: #3498db;
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Apply styles to the Expertise list */
+ul.Expertise {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style each list item */
+ul.Expertise li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Add some spacing to the last list item */
+ul.Expertise li:last-child {
+    border-bottom: none;
+    margin-bottom: 10px;
+}
